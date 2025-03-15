@@ -1,0 +1,55 @@
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 400px;
+    margin: 18px;
+    border: 1px solid rgb(0 0 0/ 0.1);
+    padding: 20px;
+    background-color: #247;
+    color: #fff;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    display: block;
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    padding-top: 3px;
+    text-align: center;
+    font-size: smaller;
+}
+
