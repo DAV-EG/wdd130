@@ -1,3 +1,8 @@
+:root {
+    --border: 1px solid rgb(0 0 0/ 0.1);
+    --height: auto=;
+}
+
 main {
     max-width: 840px;
 }
@@ -5,7 +10,7 @@ main {
 aside {
     width: 400px;
     margin: 18px;
-    border: 1px solid rgb(0 0 0/ 0.1);
+    border: var(--border);
     padding: 20px;
     background-color: #247;
     color: #fff;
@@ -14,7 +19,7 @@ aside {
 
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 
 nav {
@@ -34,8 +39,8 @@ h1 {
 
 main img {
     width: 150px;
-    height: auto;
-    border: 1px solid black;
+    height: var(--height);
+    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px;
 }
@@ -52,4 +57,3 @@ footer {
     text-align: center;
     font-size: smaller;
 }
-
