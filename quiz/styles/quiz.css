@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Serif 4", sans-serif;
+    font-size: medium;
+    font-weight: 50rem;
+    color: #1a1a1a;
+    background-color: whitesmoke;
+    margin: 11px;
+}
+
+header {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: bolder;
+    font-size: 2.3rem;
+    color: blue;
+    margin: 16px;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 700px;
+    padding: 16px;
+    border: 1.2px solid rgb(0 0 0/0.3);
+    border-radius: 9px;
+    background-color: lightgray;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 7px;
+    margin: 15px;
+    border: 1.2px solid rgb(0 0 0/0.5);
+    padding: 17px;
+}
+
+legend {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(3, 3, 27);
+}
+
+label,
+input,
+select,
+textarea {
+    font-family: 'Times New Roman', 'Arial', sans-serif;
+    font-weight: normal;
+    padding: 0.6rem;
+    font-size: medium;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600px;
+}
+
+input,
+select,
+textarea {
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    border: 1.2px solid rgb(19, 4, 4);
+}
+
+button {
+    background-color: blue;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700px;
+    border-radius: 8px;
+    padding: .50rem;
+    border: none;
+    width: 30%;
+}
+
+button:hover {
+    background-color: blue;
+    color: tomato;
+    font-size: 1.7em;
+    font-weight: 850px;
+    text-decoration: underline;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 600px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    padding: 15px;
+    border-top: 1.3px solid rgb(19, 11, 11);
+}
+
+textarea {
+    width: 70%;
+    margin: 1rem auto 0;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 10px;
+    font-size: small;
+}
+
+.two input {
+    width: 100%;
+    height: 120px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.four {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
