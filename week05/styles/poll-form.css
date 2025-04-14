@@ -74,6 +74,7 @@ select,
 textarea {
     padding: 0.4rem;
     font-size: 1.2rem;
+    border: 1.2px solid rgb(12, 9, 9);
 }
 
 input[type="checkbox"] {
@@ -120,6 +121,7 @@ footer {
 .column1 {
     grid-template-columns: 3fr 1fr;
     margin: 0.2rem 0;
+    grid-gap: 1rem;
 }
 
 .column2 {
