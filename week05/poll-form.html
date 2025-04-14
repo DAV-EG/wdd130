@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=0">
+    <meta name="author" content="David Eguabor">
+    <meta name="description" content="A webpage too better understand input and collecting data from user.">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts for Roboto Slab and Source Serif 4 -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Source+Serif+4:opsz,wght@8..60,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | David Eguabor | HTML Form - User Poll</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <div class="form-item column2">
+                    <label for="fullname">Full name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="broswer">What is your favorite internet browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4"
+                        placeholder="stillwater Florida, Amsterdam Netherland, Tibuktu Mali"></textarea>
+                </div>
+
+            </fieldset>
+
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2025 | HTML Form - User Poll Activity | David Eguabor</p>
+    </footer>
+
+</body>
+
+</html>
