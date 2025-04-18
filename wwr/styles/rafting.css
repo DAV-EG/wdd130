@@ -657,7 +657,7 @@ section.one p {
 
 /*------------------------------------Trip CSS begins ---------------------------------*/
 /* Table */
-body {
+.table {
     font-family: var(--body-font);
     margin: 20px;
     background-color: #f4f4f9;
