@@ -676,19 +676,28 @@ td {
     border: 1px solid #ddd;
 }
 
+td {
+    font-family: var(--body-font);
+    color: black;
+    font-weight: bold;
+}
+
 th {
+    font-family: var(--body-font);
     background-color: #4CAF50;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: whitesmoke;
 }
 
 caption {
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 10px;
+    color: #000;
 }
 
 
