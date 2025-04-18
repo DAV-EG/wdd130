@@ -333,7 +333,7 @@ button {
     margin: 0 auto;
     color: white;
     font-size: 1.5rem;
-    font-weight: 700px;
+    font-weight: 700;
     border-radius: 8px;
     padding: .50rem;
     border: none;
@@ -345,7 +345,7 @@ button:hover {
     background-color: var(--accent2-color);
     color: tomato;
     font-size: 1.7em;
-    font-weight: 850px;
+    font-weight: 850;
     text-decoration: underline;
 }
 
