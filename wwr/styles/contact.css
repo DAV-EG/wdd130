@@ -234,7 +234,7 @@ section.employees figcaption {
 }
 
 /* form */
-section.information h1 {
+.information h1 {
     font-family: var(--body-font);
     font-weight: bolder;
     font-size: 2rem;
@@ -244,7 +244,7 @@ section.information h1 {
     margin-top: 200px;
 }
 
-section.information h4 {
+.information h4 {
     font-family: var(--body-font);
     font-weight: bolder;
     font-size: 1rem;
