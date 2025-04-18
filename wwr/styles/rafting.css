@@ -93,7 +93,8 @@ h2 {
     padding: 20px 200px 30px 20px;
     margin: 5px 20px 100px 150px;
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    color: black;
+    font-weight: bolder;
     top: 70%;
     right: 10%;
     opacity: 0.9;
@@ -197,6 +198,7 @@ header nav {
 .gallery-section figcaption {
     font-size: 1rem;
     color: var(--primary-color);
+    font-weight: bold;
     margin-top: 10px;
     text-align: center;
 }
@@ -233,7 +235,8 @@ header nav {
     font-size: 1rem;
     line-height: 1.5;
     margin-top: 15px;
-    color: #1a1a1a;
+    color: black;
+    font-weight: bold;
     text-align: left;
 }
 
