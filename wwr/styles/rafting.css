@@ -730,6 +730,76 @@ caption {
 
 
 /* trip two */
+.trip.one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+
+.trip.one img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.trip.one article {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+
+.trip.one article p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* trip three */
+.trip.one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+
+.trip.one img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.trip.one article {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+
+.trip.one article p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    overflow-y: auto;
+    padding-right: 10px;
+}
 
 
 /*------------------------------------Trip CSS ends------------------------------------ */
