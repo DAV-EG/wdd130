@@ -242,7 +242,7 @@ header nav {
 
 
 
-/* Contact CSS Begins */
+/* --------------------------------------------Contact CSS Begins ---------------------------------------------*/
 
 /* Main h1 grid section */
 section.grid {
@@ -439,7 +439,7 @@ label.column2 {
     font-weight: 800;
 }
 
-label{
+label {
     font-weight: bold;
 }
 
@@ -553,10 +553,10 @@ footer .socialmedia img {
     display: block;
 }
 
-/* contact CSS ends */
+/*---------------------------------- contact CSS ends -----------------------------*/
 
 
-/* home css */
+/*------------------------------------ home css ----------------------------------- */
 section.one {
     height: 268px;
     border-radius: 3px;
@@ -651,5 +651,12 @@ section.one p {
     font-weight: bolder;
 }
 
+/*----------------------------------- home css ends---------------------------------- */
 
-/* home css ends */
+
+
+/*------------------------------------Trip CSS begins ---------------------------------*/
+
+
+
+/*------------------------------------Trip CSS ends------------------------------------ */
