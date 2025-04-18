@@ -730,7 +730,7 @@ caption {
 
 
 /* trip two */
-.trip.one {
+.trip.two {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -740,14 +740,14 @@ caption {
 }
 
 
-.trip.one img {
+.trip.two img {
     width: 50%;
     height: 100%;
     object-fit: cover;
 }
 
 
-.trip.one article {
+.trip.two article {
     width: 50%;
     height: 100%;
     padding: 10px;
@@ -757,7 +757,7 @@ caption {
 }
 
 
-.trip.one article p {
+.trip.two article p {
     font-size: 14px;
     line-height: 1.5;
     color: #333;
@@ -766,7 +766,7 @@ caption {
 }
 
 /* trip three */
-.trip.one {
+.trip.three {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -776,14 +776,14 @@ caption {
 }
 
 
-.trip.one img {
+.trip.three img {
     width: 50%;
     height: 100%;
     object-fit: cover;
 }
 
 
-.trip.one article {
+.trip.three article {
     width: 50%;
     height: 100%;
     padding: 10px;
@@ -793,7 +793,7 @@ caption {
 }
 
 
-.trip.one article p {
+.trip.three article p {
     font-size: 14px;
     line-height: 1.5;
     color: #333;
