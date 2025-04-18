@@ -345,7 +345,7 @@ h2 {
     font-size: 40px;
 }
 
-section.employees {
+.employees {
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -355,13 +355,13 @@ section.employees {
     background-color: white;
 }
 
-section.employees figure {
+.employees figure {
     flex: 1;
     text-align: center;
     margin: 0;
 }
 
-section.employees img {
+.employees img {
     width: 100%;
     max-width: 250px;
     height: 250px;
@@ -371,7 +371,7 @@ section.employees img {
     margin: 0 auto;
 }
 
-section.employees figcaption {
+.employees figcaption {
     margin-top: 10px;
     font-size: 20px;
     color: var(--primary-color);
