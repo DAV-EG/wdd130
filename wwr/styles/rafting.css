@@ -727,6 +727,8 @@ caption {
     color: #333;
     overflow-y: auto;
     padding-right: 10px;
+    font-family: var(--body-font);
+    font-weight: bold;
 }
 
 
@@ -765,6 +767,8 @@ caption {
     color: #333;
     overflow-y: auto;
     padding-right: 10px;
+    font-family: var(--body-font);
+    font-weight: bold;
 }
 
 /* trip three */
@@ -802,6 +806,8 @@ caption {
     color: #333;
     overflow-y: auto;
     padding-right: 10px;
+    font-family: var(--body-font);
+    font-weight: bold;
 }
 
 
