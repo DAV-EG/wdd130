@@ -197,7 +197,7 @@ header nav {
 
 .gallery-section figcaption {
     font-size: 1rem;
-    color: var(--primary-color);
+    color: black;
     font-weight: bold;
     margin-top: 10px;
     text-align: center;
@@ -439,6 +439,9 @@ label.column2 {
     font-weight: 800;
 }
 
+label{
+    font-weight: bold;
+}
 
 input,
 textarea {
