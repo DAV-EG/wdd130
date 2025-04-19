@@ -58,14 +58,22 @@
 
             <div class="newsletter">
                 <img src="images/forest.jpg" alt="forest">
-                <article>
+                
+                <form class="contactform">
                     <h4>Newsletter</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem voluptas id
-                        culpa
-                        inventore esse accusantium sapiente impedit adipisci. Laboriosam consectetur dicta quidem itaque
-                        quis architecto consequatur omnis in obcaecati?Lorem ipsum dolor sit amet consectetur
-                        adipisicing.</p>
-                </article>
+                    <fieldset>
+                        <div class="form-item colum2">
+                            <label for="fullname">Name:</label>
+                            <input type="text" id="fullname" name="fullname" required>
+                        </div>
+
+                        <div class="form-item colum2">
+                            <label for="useremail">Email:</label>
+                            <input type="email" id="useremail" name="useremail" required>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="submit-botton">Submit</button>
+                </form>
             </div>
 
         </main>

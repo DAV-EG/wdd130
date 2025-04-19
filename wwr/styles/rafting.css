@@ -78,6 +78,10 @@ h2 {
     float: right;
 }
 
+.hero {
+    position: relative;
+}
+
 .herodiv {
     position: relative;
 }
@@ -602,7 +606,7 @@ section.one p {
 
 .newsletter img {
     display: block;
-    width: 60%;
+    width: 70%;
     height: auto;
     padding: 30px;
     margin: 60px;
@@ -621,35 +625,45 @@ section.one p {
     background-color: #fccc94;
 }
 
-.newsletter article {
-    position: absolute;
-    background-color: lightgrey;
-    padding: 20px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    max-width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    bottom: 30%;
-    left: 55%;
-}
-
 .newsletter h4 {
     margin-top: 0;
-    font-size: 1.2em;
+    font-size: 1.6em;
     color: var(--primary-color);
     border-bottom: 1px solid #bbb;
     padding-bottom: 8px;
     text-align: center;
 }
 
-.newsletter p {
-    font-size: 0.69em;
-    text-align: left;
-    margin: 10px 0 0;
-    line-height: 1.6;
-    color: var(--accent3-color);
-    font-weight: bolder;
+.newsletter form {
+    position: absolute;
+    left: 58%;
+    bottom: 21%;
+    width: 400px;
+    height: auto;
 }
+
+.newsletter button {
+    background-color: var(--accent2-color);
+    margin: 0 auto;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: .50rem;
+    border: none;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.newsletter button:hover {
+    background-color: var(--accent2-color);
+    color: tomato;
+    font-size: 1.7em;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
 
 /*----------------------------------- home css ends---------------------------------- */
 
