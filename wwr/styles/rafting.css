@@ -670,7 +670,7 @@ section.one p {
 /* Table */
 .table {
     font-family: var(--body-font);
-    margin: 20px;
+    margin: 20px 0;
     background-color: #f4f4f9;
 }
 
